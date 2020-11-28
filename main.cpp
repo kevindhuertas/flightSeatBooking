@@ -15,17 +15,22 @@
                         [ventana][pasillo]    [pasillo][ventana]
                         [ventana]                      [ventana]
                          
- informacion de todas las opciones que estan disponibles:
+Como se podria mostar la informacion de vuelos:
  
-Dia Martes       Vuelos:  11:00 am
-                          12:00 pm
-                          2:00  pm
-                          4:00  pm
+Dia Martes       Vuelos:         Asientos disponibles:                 Asientos ocupados:
+                 11:00 am        3 en ventana | 5 en pasillo           22
+                 12:00 pm        5 en ventana | 4 en pasillo           02
+                 02:00 pm        4 en ventana | 3 en pasillo           19
+                 04:00 pm        3 en ventana | 3 en pasillo           20
+ 
+Dia Viernes      Vuelos:         Asientos disponibles:                 Asientos ocupados:
+                 11:00 am        3 en ventana | 5 en pasillo           22
+                 12:00 pm
+                 02:00 pm
+                 04:00 pm
 
 
-Dia miercoles
 
-Dia domingo
  
  */
 #include "Proyecto.hpp"
