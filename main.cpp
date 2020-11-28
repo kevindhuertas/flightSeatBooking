@@ -32,6 +32,7 @@ Dia domingo
 #include <iostream>
 using namespace std;
 
+//Para los aviones (separar a otro archivo xd)
 class avion {
     private:
         char disponible;
@@ -41,9 +42,6 @@ class avion {
     public:
 
     //En cada asiento tiene un numero y disponiblidad
-
-        
-
 };
 
 
@@ -54,7 +52,6 @@ int menu(){
     cout<< "Menu principal de reservas"<< endl;
     cout<<"\t1.Mostrar información de vuelos"<<endl;
     cout<<"\t2.Reservar un asiento"<<endl;
-    cout<<"\t3.Display the information "<<endl;
     cout<<"\t0.Salir"<<endl<<endl;
     cout<<"Por favor ingrese una opción: ";
     cin>>option;
@@ -67,6 +64,7 @@ int menu(){
         return -1;
 }
 void dibujoAvion();
+
 int main(){
 
  cout<<"Bienvenido al sistema de reserva de asientos para vuelos Quito-Paris "<<endl;
@@ -77,7 +75,14 @@ int main(){
  {
  switch(menu( ))
     {
-
+   /*
+        case 1: info(); break; //display information
+        case 2: Reservation(); break; //reservation
+        case 0:exit(0);
+        default<<"Seleccione una opcion correcta!\n";
+        
+        fuente:https://developpaper.com/c-realization-of-air-ticket-reservation-system/
+    */
     }
     } 
     return 0;
