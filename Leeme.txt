@@ -2,4 +2,8 @@
 Reserva de asiento para un vuelo
 Proyecto para Programación 1
 
+
+EJERCICIO IGUAL PERO MAS COMPLICADO, sin embargo se puede sacar muy de ahi:
+
+Esta es la parte 2.... 
 https://es.coursera.org/lecture/introduccion-programacion-java/video-codigo-avion-parte-ii-QgNDN
